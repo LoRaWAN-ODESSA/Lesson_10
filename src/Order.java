@@ -74,7 +74,7 @@ public class Order extends Pizza{
         int sum = 0;
         for(String pizzaName: names) {
             this.names[sum] = pizzaName;
-            sum += 1;
+            sum++;
         }
         this.prices = setPriceList();
         this.compositions = setCompositionList();

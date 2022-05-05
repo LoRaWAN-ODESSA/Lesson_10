@@ -189,7 +189,7 @@ public class Order extends Pizza{
     public void printOrderInfo() {
         System.out.println("You have ordered " + numPizza + " pizzas");
         for (int i = 0; i < numPizza; i++) {
-            System.out.println((i + 1) + " " + getNames()[i] + "; Compositions: " + getCompositions()[i] +
+            System.out.println((i + 1) + ". " + getNames()[i] + "; Compositions: " + getCompositions()[i] +
                     "; Price: " + getPrices()[i] + "; Diameter: " + getDiameters()[i] +
                     "    [radius: " + pizzaList[i].getBasis().getRadius() + "; Circumference: " + pizzaList[i].getBasis().getCircumference() +
                     "; Area: " + pizzaList[i].getBasis().getArea() + "]");

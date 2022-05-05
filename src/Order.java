@@ -69,13 +69,9 @@ public class Order extends Pizza{
      * @param names names of pizzas, wich client has ordered
      */
     public void setOrder(String... names) {
-        int sum = 0;
-        for(String pizzaName: names){
-            sum += 1;
-        }
-        numPizza = sum;
+        numPizza = names.length;
         this.names = new String[numPizza];
-        sum = 0;
+        int sum = 0;
         for(String pizzaName: names) {
             this.names[sum] = pizzaName;
             sum += 1;

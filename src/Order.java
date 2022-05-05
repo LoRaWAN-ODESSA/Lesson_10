@@ -1,12 +1,5 @@
 /**
  * This class is describing all order parameters
- * @numPizza - number of pizzas in order;
- * @names - list of pizzas names in order;
- * @prices - list of pizzas prices in order;
- * @compositions - list of pizzas compositions in order;
- * @diameters - list of pizzas diameters in order;
- * @totalCost - total cost in order;
- * @pizzaList - list of pizzas parameters in order;
  */
 public class Order extends Pizza{
 

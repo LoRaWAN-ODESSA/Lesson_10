@@ -1,9 +1,5 @@
 /**
  * This class is describing circle parameters;
- * @radius - radius;
- * @circumference - circumference;
- * @area - area;
- * @colour - colour;
  */
 public class Circle {
     private double radius;
